@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Nature&Science</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="TODOs List.html">Home</a>
+            </li>
+
+            <li><a class="nav-link" href="ram.html">Contact</a></li>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Field
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">nature</a></li>
+                <li><a class="dropdown-item" href="#">technology</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">both are need </a></li>
+
+              </ul>
+            </li>
+
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+
+        <div class="text">
+          <button type="button" class="btn btn-outline-danger mx-2" data-bs-toggle="modal" data-bs-target="#loginModal">
+            login</button>
+          <button type="button" class="btn btn-outline-danger mx-0" data-bs-toggle="modal"
+            data-bs-target="#signupModal">signup</button>
+
+    </nav>
+    <!-- loginModal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="loginModalLabel">Login</h1>
+
+
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <input type="text" id="loginModalLabel" placeholder="email"><br>
+            <input type="text" id="loginModalLabel" placeholder="password">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">login</button>
+            <button type="button" class="btn btn-primary">forgot password</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- signupModal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="signupModalLabel">Signup</h1>
+
+
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <input type="text" id="loginModalLabel" placeholder="Email"><br>
+            <input type="text" id="loginModalLabel" placeholder="password">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">login</button>
+            <button type="button" class="btn btn-primary">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>you are not love nature</strong> why You are not love nature .
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+  </header>
+  <main class="wrr">
+    <form action="form.php" class="set">
+      <div class="hyper">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+      </div>
+      <div class="hyser">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+      </div>
+      <div class="diser">
+        <input type="submit" name="submit" value="Submit">
+      </div>
+      <div class="dem">
+        <label for="sectionid">Textarea:</label>
+        <textarea id="sectionid" name="section_text" cols="50" rows="3"></textarea>
+      </div>
+      <div class="yaya">
+        <label>Options:</label>
+        <div>
+          <input type="checkbox" id="nature" name="options[]" value="nature">
+          <label for="nature">Nature</label>
+        </div>
+        <div>
+          <input type="checkbox" id="technology" name="options[]" value="technology">
+          <label for="technology">Technology</label>
+        </div>
+        <div>
+          <input type="radio" id="sectionA" name="section" value="sectionA">
+          <label for="sectionA">Save</label>
+        </div>
+        <div>
+          <input type="radio" id="sectionB" name="section" value="sectionB">
+          <label for="sectionB">Query</label>
+        </div>
+      </div>
+    </form>
+  </main>
+  <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
