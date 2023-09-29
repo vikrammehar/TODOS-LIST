@@ -78,8 +78,8 @@ align-item:center;}
     .form-controls {
         width:75vw;
         position: relative;
-        overflow: hidden;
-        right:5vw;
+        overflowX: hidden;
+        right:3vw;
     }
 
     .chat{width: fit-content;}
