@@ -76,10 +76,10 @@ align-item:center;}
     }
 
     .form-controls {
-        width: 50vw;
+        width:80vw;
         position: relative;
         overflow: hidden;
-        left:10vw;
+        left:2vw;
     }
 
     .chat{width: fit-content;}
