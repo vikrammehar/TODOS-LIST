@@ -7,7 +7,7 @@ body {
     background: rgb(216, 7, 216);
 }
 .containersg{display: flex;
-   justify-content:space-between;
+   justify-content:center;
 flex-wrap: wrap;}
 
 main {
@@ -76,10 +76,10 @@ align-item:center;}
     }
 
     .form-controls {
-        width:80vw;
+        width:75vw;
         position: relative;
         overflow: hidden;
-        right:10vw;
+        right:5vw;
     }
 
     .chat{width: fit-content;}
