@@ -79,7 +79,7 @@ align-item:center;}
         width: 50vw;
         position: relative;
         overflow: hidden;
-        left: 25vw;
+        left:10vw;
     }
 
     .chat{width: fit-content;}
