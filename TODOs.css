@@ -78,7 +78,6 @@ align-item:center;}
     .form-controls {
         width:55vw;
         position: relative;
-        overflow-x: hidden;
         right:2vw;
         
     }
