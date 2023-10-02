@@ -100,4 +100,5 @@ footer{margin-top: 5vh;
 flex-direction: column;
 justify-content: space-between;
 flex-wrap: wrap;}
+footer h2{align-self: center;}
 
